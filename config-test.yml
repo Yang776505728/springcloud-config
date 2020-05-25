@@ -1,15 +1,2 @@
-server:
-  port: 3344
-
-
-spring:
-  application:
-    name: cloud-cinfig-center
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/Yang776505728/springcloud-config.git
-          search-paths:
-          - springcloud-config
-      label: master
+config:
+  info: test
